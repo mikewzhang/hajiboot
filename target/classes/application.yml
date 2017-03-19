@@ -1,8 +1,0 @@
-# See http://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
-spring:
-  main.show-banner: false
-
-# Spring MVC dispatcher servlet path. Needs to be different than Jersey's to enable/disable Actuator endpoints access (/info, /health, ...)
-server.servlet-path: /
-# Jersey dispatcher servlet
-spring.jersey.application-path: /api
